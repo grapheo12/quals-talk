@@ -1,0 +1,56 @@
+<g xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" id="id9" class="Slide" clip-path="url(#presentation_clip_path)">
+     <g ooo:name="Threat_Model_(3)" class="Page">
+      <g class="TitleText">
+       <g id="id386">
+        <rect class="BoundingBox" stroke="none" fill="none" x="2328" y="889" width="29210" height="2667"/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="2582" y="3153"><tspan font-family="Rubik" font-size="1270px" font-weight="700" lengthAdjust="spacingAndGlyphs" textLength="8348" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Threat Model</tspan></tspan></tspan></text>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TableShape">
+       <g>
+        <rect class="BoundingBox" stroke="none" fill="none" x="2298" y="4415" width="29270" height="8137"/>
+        <path fill="rgb(31,95,139)" stroke="none" d="M 2328,4445 L 17281,4445 17281,6464 2328,6464 2328,4445 Z "/>
+        <path fill="rgb(31,95,139)" stroke="none" d="M 17281,4445 L 24432,4445 24432,6464 17281,6464 17281,4445 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="19361" y="5709"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="2992" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Ideal TEEs</tspan></tspan></tspan></text>
+        <path fill="rgb(31,95,139)" stroke="none" d="M 24432,4445 L 31537,4445 31537,6464 24432,6464 24432,4445 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="26557" y="5709"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="2856" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Real TEEs</tspan></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 2328,6464 L 17281,6464 17281,8483 2328,8483 2328,6464 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="2582" y="7728"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="5065" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Memory integrity</tspan></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 17281,6464 L 24432,6464 24432,8483 17281,8483 17281,6464 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="20652" y="8038"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 24432,6464 L 31537,6464 31537,8483 24432,8483 24432,6464 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="27780" y="8038"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="rgb(231,234,237)" stroke="none" d="M 2328,8483 L 17281,8483 17281,10502 2328,10502 2328,8483 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="2582" y="9747"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="3917" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Disk integrity</tspan></tspan></tspan></text>
+        <path fill="rgb(231,234,237)" stroke="none" d="M 17281,8483 L 24432,8483 24432,10502 17281,10502 17281,8483 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="20652" y="10057"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="rgb(231,234,237)" stroke="none" d="M 24432,8483 L 31537,8483 31537,10502 24432,10502 24432,8483 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="27780" y="10057"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 2328,10502 L 17281,10502 17281,12521 2328,12521 2328,10502 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="2582" y="11766"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="5650" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Execution integrity</tspan></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 17281,10502 L 24432,10502 24432,12521 17281,12521 17281,10502 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="20652" y="12076"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 24432,10502 L 31537,10502 31537,12521 24432,12521 24432,10502 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="27780" y="12076"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 2313,4445 L 31552,4445 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 2328,4430 L 2328,12536 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 17281,4430 L 17281,12536 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 24432,4430 L 24432,12536 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 31537,4430 L 31537,12536 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 2313,6464 L 31552,6464 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 2313,8483 L 31552,8483 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 2313,10502 L 31552,10502 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 2313,12521 L 31552,12521 "/>
+       <g data-repair="emoji"><text x="20857.41111111111" y="7925.655555555555" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#9989;</text><text x="27985.765277777777" y="7925.655555555555" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#127917;</text><text x="20857.41111111111" y="9945.055555555555" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#10060;</text><text x="27985.765277777777" y="9945.055555555555" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#10060;</text><text x="20857.41111111111" y="11964.455555555554" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#9989;</text><text x="27985.765277777777" y="11964.455555555554" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#127917;</text></g></g>
+      </g>
+      <g visibility="inherit" ooo:text-adjust="left" class="CustomPageNumber">
+       <text x="31284" y="18319" font-family="Rubik" font-size="388" text-anchor="end" fill="#6B7785" stroke="none">9</text></g>
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id388">
+        <rect class="BoundingBox" stroke="none" fill="none" x="10359" y="13578" width="14639" height="1026"/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="10609" y="14338"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="11561" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Reality: Compromises are possible, but </tspan><tspan font-family="Rubik" font-size="635px" font-style="italic" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="1351" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">rare.</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+    </g>
+   

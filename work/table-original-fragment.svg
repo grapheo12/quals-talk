@@ -1,0 +1,41 @@
+<g xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" id="id7" class="Slide" clip-path="url(#presentation_clip_path)">
+     <g ooo:name="Threat_Model_(2)" class="Page">
+      <g class="TitleText">
+       <g id="id383">
+        <rect class="BoundingBox" stroke="none" fill="none" x="2328" y="889" width="29210" height="2667"/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="2582" y="3153"><tspan font-family="Rubik" font-size="1270px" font-weight="700" lengthAdjust="spacingAndGlyphs" textLength="8348" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Threat Model</tspan></tspan></tspan></text>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TableShape">
+       <g>
+        <rect class="BoundingBox" stroke="none" fill="none" x="4900" y="6537" width="22165" height="8137"/>
+        <path fill="rgb(31,95,139)" stroke="none" d="M 4930,6567 L 19883,6567 19883,8586 4930,8586 4930,6567 Z "/>
+        <path fill="rgb(31,95,139)" stroke="none" d="M 19883,6567 L 27034,6567 27034,8586 19883,8586 19883,6567 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="21963" y="7831"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="2992" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Ideal TEEs</tspan></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 4930,8586 L 19883,8586 19883,10605 4930,10605 4930,8586 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="5184" y="9850"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="5065" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Memory integrity</tspan></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 19883,8586 L 27034,8586 27034,10605 19883,10605 19883,8586 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="23254" y="10160"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="rgb(231,234,237)" stroke="none" d="M 4930,10605 L 19883,10605 19883,12624 4930,12624 4930,10605 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="5184" y="11869"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="3917" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Disk integrity</tspan></tspan></tspan></text>
+        <path fill="rgb(231,234,237)" stroke="none" d="M 19883,10605 L 27034,10605 27034,12624 19883,12624 19883,10605 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="23254" y="12179"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 4930,12624 L 19883,12624 19883,14643 4930,14643 4930,12624 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="5184" y="13888"><tspan font-family="Rubik" font-size="635px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="5650" fill="rgb(31,35,40)" stroke="none" style="white-space: pre">Execution integrity</tspan></tspan></tspan></text>
+        <path fill="rgb(204,210,218)" stroke="none" d="M 19883,12624 L 27034,12624 27034,14643 19883,14643 19883,12624 Z "/>
+        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="23254" y="14198"><tspan font-family="Rubik" font-size="1411px" font-weight="400" lengthAdjust="spacingAndGlyphs" textLength="409" fill="rgb(31,35,40)" stroke="none" style="white-space: pre"/></tspan></tspan></text>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 4915,6567 L 27049,6567 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 4930,6552 L 4930,14658 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 19883,6552 L 19883,14658 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 27034,6552 L 27034,14658 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 4915,8586 L 27049,8586 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 4915,10605 L 27049,10605 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 4915,12624 L 27049,12624 "/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="30" stroke-linejoin="round" d="M 4915,14643 L 27049,14643 "/>
+       <g data-repair="emoji"><text x="23459.36388888889" y="10048.119444444445" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#9989;</text><text x="23459.36388888889" y="12067.519444444444" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#10060;</text><text x="23459.36388888889" y="14086.919444444444" fill="#17202A" stroke="none" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji" font-size="1411.111111111111" text-anchor="middle">&#9989;</text></g></g>
+      </g>
+      <g visibility="inherit" ooo:text-adjust="left" class="CustomPageNumber">
+       <text x="31284" y="18319" font-family="Rubik" font-size="388" text-anchor="end" fill="#6B7785" stroke="none">7</text></g>
+     </g>
+    </g>
+   

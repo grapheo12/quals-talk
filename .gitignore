@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+# Build outputs and local browser screenshots.
+outputs/
+# Local snapshots are superseded by Git history.
+work/revisions/
+work/tools/
+work/publish-check/
