@@ -79,3 +79,5 @@ User wants to dictate changes in this chat, possibly rebuilding the narrative fr
 - Slide8 simplified: quiet relative-duration lines for LVI (4Apr2019 discovery→10Mar2020 software mitigation), SmashEx (3May2021 report→13Jul2021 runtime patches; discovery earlyMay only), BadRAM retained (26Feb2024 report→1Oct2024 firmware). BatteringRAM/DDrop removed. Exact date semantics and primary citations in notes.
 
 - Slide8 now has one chronological line, LVI → SmashEx → BadRAM. Vulnerable durations proportional, inter-study gaps compressed with breaks; date ranges below each interval.
+
+- Project published to git@github.com:grapheo12/quals-talk.git (main), GitHub Pages at https://grapheo12.github.io/quals-talk/. GitHub Actions builds with python work/build_web.py --static into outputs/site. Static viewer disables local revision polling/autofocus; existing localhost live deck still works. Source PPTX included in source/. Generated outputs/revision backups ignored by Git.

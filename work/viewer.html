@@ -5,7 +5,7 @@
 </style></head>
 <body><div class="app"><header><strong>Qualifying Exam</strong><small>Shubham Mishra · Berkeley</small><div class="spacer"></div><span id="status">Opening deck…</span><button id="notesButton" title="Speaker notes (N)">Notes</button><button id="present" title="Presentation mode (F)">Present</button></header><aside><input id="search" type="search" placeholder="Find a slide…" aria-label="Search slides"><nav id="outline"></nav></aside><main><div id="loading">Opening slides…</div><div id="frameWrap"><iframe id="slides" title="Qualifying exam slides"></iframe></div><div id="notes"></div></main><footer><button id="prev" title="Previous slide">←</button><div id="counter"><input id="jump" type="number" min="1" max="105" value="1" aria-label="Slide number"><span id="total">/ 100</span></div><button id="next" title="Next slide">→</button><span id="title"></span><div class="spacer"></div><span id="hint">Space: next build</span><button id="step" title="Next animation or slide">Next build</button></footer></div>
 <script>
-const livePreview=__LIVE_PREVIEW__;
+const livePreview=true;
 const svgSource=__SVG_JSON__;
 const deck=__DECK_JSON__;
 const frame=document.getElementById('slides'),outline=document.getElementById('outline');

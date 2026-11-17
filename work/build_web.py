@@ -50,7 +50,7 @@ def build(out=OUT, live=True):
     template=(ROOT/'work'/'viewer.html').read_text()
     data=json.dumps(SVG.read_text(),ensure_ascii=False).replace('</','<\\/')
     meta=(ROOT/'work'/'deck.json').read_text().replace('</','<\\/')
-    output=template.replace('__SVG_JSON__',data).replace('__DECK_JSON__',meta).replace('__LIVE_PREVIEW__',str(live).lower())
+    output=template.replace('__SVG_JSON__',data).replace('__DECK_JSON__',meta).replace('const livePreview=true;', 'const livePreview='+str(live).lower()+';')
     entry=out/('Qualifying Exam.html' if live else 'index.html')
     entry.write_text(output)
     (out/'deck.svg').write_text(SVG.read_text())
