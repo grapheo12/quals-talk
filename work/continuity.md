@@ -81,3 +81,7 @@ User wants to dictate changes in this chat, possibly rebuilding the narrative fr
 - Slide8 now has one chronological line, LVI → SmashEx → BadRAM. Vulnerable durations proportional, inter-study gaps compressed with breaks; date ranges below each interval.
 
 - Project published to git@github.com:grapheo12/quals-talk.git (main), GitHub Pages at https://grapheo12.github.io/quals-talk/. GitHub Actions builds with python work/build_web.py --static into outputs/site. Static viewer disables local revision polling/autofocus; existing localhost live deck still works. Source PPTX included in source/. Generated outputs/revision backups ignored by Git.
+
+- Publishing instruction: continue editing and previewing on localhost. Do NOT push commits or publish updates after ordinary edits. Only push to git@github.com:grapheo12/quals-talk.git when the user explicitly says "push remote" (or otherwise explicitly requests publishing). GitHub Pages deploys automatically after that push.
+
+- Inserted unnumbered sentinel slide-old-slides-divider after user Slide9 (viewer11); total106. "Old slides below" / "End of revised slides". All subsequent slides await revision. Insert newly dictated slides BEFORE this divider and keep it marking the revised/original boundary. Local only.
