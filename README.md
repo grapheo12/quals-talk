@@ -6,7 +6,11 @@ Live site: https://grapheo12.github.io/quals-talk/
 
 ## Present
 
-Use the outline or slide-number field to jump to a slide. Space / right arrow advances an animation build; left arrow returns to the previous slide. **F** toggles presentation mode, **N** toggles speaker notes, and Escape exits presentation mode. A URL ending in `#9` opens viewer slide 9 (content slide 8, because the title is counted in the viewer).
+Use the outline or slide-number field to jump to a slide or lettered build (for example, `26b`). Space / right arrow advances an animation build; left arrow returns to the previous slide. **F** toggles presentation mode, **N** toggles reference notes, and Escape exits presentation mode. The spoken script remains visible in the bottom panel. Grouped builds share one slide number; URL hashes use the underlying frame index, including each build.
+
+## Implementation
+
+This is a custom viewer built with plain HTML, CSS and JavaScript, rather than a slide framework such as Reveal.js. Slides use editable SVG artwork with embedded fonts and images. The original conversion retains LibreOffice's JavaScript presentation and animation runtime; subsequent slides are edited directly in SVG. JSON supplies the outline, grouped builds and narration. A small Python server supplies local live reload and automatic selection of the edited slide, while GitHub Pages serves a static build without Python.
 
 ## Edit locally
 
@@ -35,6 +39,12 @@ python3 work/build_web.py --static
 
 This creates `outputs/site/index.html` and `outputs/site/deck.svg`. All asset references work under the `/quals-talk/` project path. The static site has no server dependency; live editing and automatic selection of changed slides remain local features.
 
-Pushing `main` runs the GitHub Pages workflow. Repository **Settings → Pages → Source** must be **GitHub Actions**. The site includes the deck's speaker notes, available using the Notes button.
+Pushing `main` runs the GitHub Pages workflow. Repository **Settings → Pages → Source** must be **GitHub Actions**. The site includes the spoken scripts in the bottom panel and additional sources under **Reference notes**.
 
 To build a single-file offline copy, run `python3 work/build_web.py` and open `outputs/Qualifying Exam.html`.
+
+## Generate PPTX macro
+
+“Generate PPTX N” exports the current deck through logical slide N, including all lettered builds. Text, diagrams, charts drawn as shapes, and icons remain native editable PowerPoint objects; company logos may remain images. Spoken scripts become speaker notes. The old-slide divider is excluded when it is beyond the requested cutoff.
+
+The reusable local export workflow is `work/generate_pptx.py N` (run with the bundled Python runtime). Each exported file is validated, then visually reviewed before delivery. This does not publish the web deck.

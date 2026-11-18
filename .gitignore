@@ -7,3 +7,11 @@ outputs/
 work/revisions/
 work/tools/
 work/publish-check/
+# Local extracts used to inspect source papers.
+work/paper-reference/
+# Native PowerPoint export intermediates; keep the reusable converter.
+work/pptx-export/*
+!work/pptx-export/extract_native_scene.py
+!work/pptx-export/generate.mjs
+!work/pptx-export/finalize.mjs
+.codex-finalizer/

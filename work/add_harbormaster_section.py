@@ -48,7 +48,7 @@ for i,(s,w) in enumerate(zip(data,wrappers)):
   if group:seen[group['id']]=n
  number=seen[group['id']] if group else n;s['displayNumber']=number
  if group:group['number']=number
- for e in w.xpath('.//*[local-name()="text" and @y="692"] | .//*[@class="CustomPageNumber"]//*[local-name()="text"]'):e.text=str(number)
+ for e in w.xpath('.//*[local-name()="text" and @y="692" and @x="1182"] | .//*[@class="CustomPageNumber"]//*[local-name()="text"]'):e.text=str(number)
 assert len(data)==112 and n==109
 assert data[15]['displayNumber']==13 and data[16]['displayNumber']==14
 assert meta[0].get('id')=='ooo:meta_dummy_slide'
