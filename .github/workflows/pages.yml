@@ -4,6 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -27,6 +28,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: outputs/site
+      # v4.0.0 uses the REST artifact lookup; newer v4 builds currently return
+      # an empty internal artifact list even after a successful upload.
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4.0.0
